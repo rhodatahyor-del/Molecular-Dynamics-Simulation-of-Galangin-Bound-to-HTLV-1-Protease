@@ -1,6 +1,4 @@
 # Molecular-Dynamics-Simulation-of-Galangin-Bound-to-HTLV-1-Protease
-Molecular docking and molecular dynamics simulations investigating the interaction of galangin with HTLV-1 protease, including RMSD, RMSF, Radius of gyration and SASA analyses.
-# Molecular Dynamics Simulation of Galangin Bound to HTLV-1 Protease
 
 This repository documents a molecular docking and molecular dynamics (MD)
 simulation study investigating the interaction between **galangin** and
@@ -11,13 +9,13 @@ KNI-10562 (PDB ID: 3LIN) was used as the structural template. Galangin, a
 naturally occurring flavonol, was evaluated for its binding stability and
 dynamic behavior within the protease active site.
 
-## System Preparation
+# System Preparation
 The HTLV-1 protease structure was obtained from the Protein Data Bank.
 The co-crystallized inhibitor was removed prior to docking, and galangin
 was introduced into the binding site. The resulting protein–ligand complex
 was prepared for MD simulation following standard preprocessing protocols.
 
-## Molecular Dynamics Simulation
+# Molecular Dynamics Simulation
 All molecular dynamics simulations were performed using **GROMACS** on a
 Linux environment. The system was solvated, energy-minimized, equilibrated,
 and subjected to a production MD run under periodic boundary conditions.
@@ -25,7 +23,7 @@ and subjected to a production MD run under periodic boundary conditions.
 Simulation parameters were defined using standard GROMACS input files
 (.mdp), and trajectories were generated for subsequent analysis.
 
-## Trajectory Analysis
+# Trajectory Analysis
 Post-simulation analyses were conducted to evaluate the structural stability
 and dynamic properties of the galangin–HTLV-1 protease complex, including:
 
@@ -36,7 +34,7 @@ and dynamic properties of the galangin–HTLV-1 protease complex, including:
 - **Solvent Accessible Surface Area (SASA):** to evaluate changes in surface
   exposure and protein compactness upon ligand binding.
 
-## Results Overview
+# Results Overview
 The computed RMSD, RMSF, and SASA profiles provide insight into the dynamic
 stability of galangin within the HTLV-1 protease binding site and the
 structural behavior of the protease during the simulation timeframe.
