@@ -11,15 +11,11 @@ KNI-10562 (PDB ID: 3LIN) was used as the structural template. Galangin, a
 naturally occurring flavonol, was evaluated for its binding stability and
 dynamic behavior within the protease active site.
 
----
-
 ## System Preparation
 The HTLV-1 protease structure was obtained from the Protein Data Bank.
 The co-crystallized inhibitor was removed prior to docking, and galangin
 was introduced into the binding site. The resulting protein–ligand complex
 was prepared for MD simulation following standard preprocessing protocols.
-
----
 
 ## Molecular Dynamics Simulation
 All molecular dynamics simulations were performed using **GROMACS** on a
@@ -28,8 +24,6 @@ and subjected to a production MD run under periodic boundary conditions.
 
 Simulation parameters were defined using standard GROMACS input files
 (.mdp), and trajectories were generated for subsequent analysis.
-
----
 
 ## Trajectory Analysis
 Post-simulation analyses were conducted to evaluate the structural stability
@@ -41,8 +35,6 @@ and dynamic properties of the galangin–HTLV-1 protease complex, including:
   and identify dynamic regions of the protease.
 - **Solvent Accessible Surface Area (SASA):** to evaluate changes in surface
   exposure and protein compactness upon ligand binding.
-
----
 
 ## Results Overview
 The computed RMSD, RMSF, and SASA profiles provide insight into the dynamic
